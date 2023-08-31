@@ -86,7 +86,7 @@ sudo systemctl restart mysql
 ```bash
 sudo mysql -u root -p
 ```
-press enter 
+Press enter 
 
 ```bash
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password'; 
