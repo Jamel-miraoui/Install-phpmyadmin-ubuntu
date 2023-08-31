@@ -5,13 +5,12 @@
 
 Install the Apache web server:
 ```bash
-  sudo apt update
-  sudo apt install apache2
+sudo apt update
+sudo apt install apache2
 ```
 Verify that Apache is working:
 ```bash
-  sudo systemctl status apache2
-
+sudo systemctl status apache2
 ```
 ## Step 2: Install PHP and Modules
 
@@ -40,6 +39,8 @@ Add the following content:
 phpinfo();
 ?>
 ```
+Access http://localhost/phpinfo.php in your browser. you must see informations about php 
+
 ## Step 4: Install MySQL Server and Client
 Install MySQL server and client:
 ```bash
@@ -82,4 +83,4 @@ Restart MySQL to apply changes:
 sudo systemctl restart mysql
 ```
 ## Access phpMyAdmin
-Access http://localhost/phpmyadmin in a browser. Log in with your MySQL credentials to start managing your databases.
+Access http://localhost/phpmyadmin in your browser. Log in with your MySQL credentials to start managing your databases.
