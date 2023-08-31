@@ -82,5 +82,17 @@ Restart MySQL to apply changes:
 ```bash
 sudo systemctl restart mysql
 ```
+## Optional : change mysql password 
+```bash
+sudo mysql -u root -p
+```
+press enter 
+
+```bash
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password'; 
+```
+
 ## Access phpMyAdmin
 Access http://localhost/phpmyadmin in your browser. Log in with your MySQL credentials to start managing your databases.
+
+
