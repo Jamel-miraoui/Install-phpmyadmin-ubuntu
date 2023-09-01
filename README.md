@@ -84,7 +84,7 @@ sudo systemctl restart mysql
 ```
 ## Optional : change mysql password 
 ```bash
-sudo mysql -u root -p
+sudo mysql
 ```
 Press enter 
 
